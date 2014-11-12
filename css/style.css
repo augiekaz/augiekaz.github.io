@@ -1,4 +1,99 @@
-a {
-
-  padding-left: 10px;
+body {
+	margin: 0;
+	background-color: #699B99;
 }
+
+.container {
+	width:960px;
+	margin: 0 auto;
+	margin-top: 40px;
+	/*border: 1px solid black;*/
+	background-color: #699B99;
+	overflow: hidden;
+}
+
+.header {
+	margin-bottom:40px;
+}
+
+.header ul {
+	list-style-type: none;
+	display:block;
+	/*border: 1px solid black;*/
+	padding-left: 0px;	
+}
+
+.header ul li {
+	display:inline;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	padding:61px;
+	/*border:1px solid black;	*/
+	margin: 0;	
+
+}
+
+.header ul li a {
+	text-decoration: none;
+	color:#FFFFFF;
+	margin:0;
+}
+
+.bio {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color:#FFFFFF;
+	margin-left: 20px;
+}
+
+img {
+	width:100px;
+	height:100px;
+	/*border:1px solid black;*/
+}
+
+#employment, #education, #skills {
+	margin-left: 30px;
+}
+
+#employment h1 {
+	/*text-align: center;*/
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color:#FFFFFF;
+}
+
+#employment p {
+	/*text-align: center;*/
+	font-family: 'Glegoo', serif;
+	color:#a5c3c2;
+}
+
+#education h1 {
+	/*text-align: center;*/
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	color:#FFFFFF;
+}
+
+#education p {
+	/*text-align: center;*/
+	font-family: 'Glegoo', serif;
+	color:#a5c3c2;
+}
+
+#skills h1 {
+	/*text-align: center;*/
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	color:#FFFFFF;
+}
+
+#skills p {
+	/*text-align: center;*/
+	font-family: 'Glegoo', serif;
+	color:#a5c3c2;
+}
+
+
