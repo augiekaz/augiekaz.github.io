@@ -14,4 +14,12 @@ section h1 {
 	font-size: 12pt;
 }
 
+body {
+	background:transparent;
+}
 
+a[href^="https://"] {
+  display: inline;
+  color:#000;
+  text-decoration: none;
+}
